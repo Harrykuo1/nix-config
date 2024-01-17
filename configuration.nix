@@ -71,6 +71,7 @@
     description = "harrykuo1";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      brave
     ];
   };
 
