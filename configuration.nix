@@ -84,6 +84,7 @@
 
   # Global packages
   environment.systemPackages = with pkgs; [
+    gnome-console
     vim
     git
   ];
