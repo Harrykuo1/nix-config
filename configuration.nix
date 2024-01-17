@@ -84,7 +84,8 @@
 
   # Global packages
   environment.systemPackages = with pkgs; [
-    gnome-console
+    gnome-console # Gnome terminal
+    gnome.nautilus # Gnome file manager
     vim
     git
   ];
