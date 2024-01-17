@@ -44,6 +44,8 @@
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
   services.gnome.core-utilities.enable = false;
+  services.gnome.core-developer-tools.enable = true;
+  services.xserver.desktopManager.gnome.flashback.enableMetacity = true;
 
   # Configure keymap in X11
   services.xserver = {
